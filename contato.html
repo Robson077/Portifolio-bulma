@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portifolio</title>
+</head>
+
+<body>
+    <!-- NAVEGAÇÃO -->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu is-active">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="index.html">
+                        Início
+                    </a>
+
+                    <a class="navbar-item" href="contato.html">
+                        Contato
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-5by1">
+                                <img src="./assets/foto.jpg" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">Robson Santana</p>
+                                    <span class="tag is-dark is-medium">Developer Front-End</span>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <p>minhamae830@gmail.com</p>
+                                <p>(82) 99121-7362</p>
+                                <a class="subtitle is-6" href="https://www.instagram.com/robsontud/">@robsontud</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Contato
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <div class="field">
+                                    <p class="title is-6">Email</p>
+                                    <p class="control has-icons-left has-icons-right">
+                                        <input class="input" type="email" placeholder="Email">
+                                        <span class="icon is-small is-left">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                        <span class="icon is-small is-right">
+                                            <i class="fas fa-check"></i>
+                                        </span>
+                                    </p>
+
+                                    <div class="control">
+                                        <p class="title is-6">Mensagem</p>
+                                        <textarea class="textarea" placeholder="Mensagem"></textarea>
+                                      </div>
+                                </div>
+                                <div class="field">
+                                    <p class="control">
+                                        <button class="button is-success">
+                                            Enviar
+                                        </button>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
